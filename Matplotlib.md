@@ -101,4 +101,56 @@ plt.plot(gdp_cap, life_exp)
 plt.show()
 ```
 
+**Scatter Plot (1)**
+
+When we have a time scale along the horizontal axis, a line graph is a good choice. But in many other cases, when we’re trying to assess whether there’s a correlation between two variables, for example, a scatter plot is the best option. Below is an example of how to create a scatter plot.
+```python
+import matplotlib.pyplot as plt
+plt.scatter(x,y)
+plt.show()
+```
+Let’s continue with the gdp_cap x life_exp plot, which shows GDP and life expectancy data for different countries in 2007. Is a scatter plot a better alternative?
+
+Again, the matplotlib.pyplot package is available as plt.
+
+**Instructions**
+- Change the line chart defined in the script to a scatter plot.
+- A correlation will become apparent when you plot GDP per capita on a logarithmic scale. Add the line plt.xscale(‘log’).
+- End the script with plt.show() to display the graph.
+
+**Change the line plot below to a scatter plot**
+```python
+plt.plot(gdp_cap, life_exp)
+plt.scatter(gdp_cap, life_exp)
+```
+**Put the x-axis on a logarithmic scale**
+```python
+plt.xscale('log')
+```
+**Show plot**
+```python
+plt.show()
+```
+**Scatter Plot (2)**
+
+In the previous exercise, you saw that a higher GDP generally corresponds to a longer life expectancy. In other words, there is a positive correlation.
+
+Do you think there is a relationship between a country’s population and its life expectancy? The `life_exp` list from the previous exercise is already available. In addition, the `pop` list is now available, showing the corresponding populations of the countries in 2007. The populations are in millions of people.
+
+**Instructions**
+- Comece do zero: importe matplotlib.pyplot como plt.
+- Crie um gráfico de dispersão em que pop seja mapeado no eixo horizontal e life_exp seja mapeado no eixo vertical.
+- Finalize o script com plt.show() para de fato exibir o gráfico. Você vê uma correlação?
+
+**Import package**
+```python
+import matplotlib.pyplot as plt
+```
+**Build Scatter plot**
+```python
+plt.scatter(pop, life_exp)
+```
+**Show plot**
+```python
+plt.show()
 ```
