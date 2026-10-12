@@ -2,7 +2,7 @@
 ## WHAT is matplotlib?
 
 It is a Python library used to create visualizations, such as charts and graphs. It helps us explore data and communicate results visually.
-## Code Example:
+Code Example:
 
 ```python
 import matplotlib.pyplot as plt
