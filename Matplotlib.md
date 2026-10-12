@@ -36,6 +36,7 @@ plt.show()
 
 ## Exercises
 **Line Chart (1)**
+
 With Matplotlib, you can create various types of charts in Python. The most basic chart is the line chart. Here is a general example.
 
 ```python
@@ -72,6 +73,7 @@ plt.show()
 ```
 
 **Line Chart (2)**
+
 Now that you’ve created your first line chart, let’s start working with the data that Professor Hans Rosling used to create his beautiful bubble chart. The data was collected in 2007. There are two lists available to you:
 
 life_exp, which contains the life expectancy for each country; and
