@@ -23,6 +23,7 @@ The scatter() function in Matplotlib creates a scatter plot to show the relation
 plt.scatter(x, y)
 
 x: values for the horizontal axis.
+
 y: values for the vertical axis.
 
 Code Example:
