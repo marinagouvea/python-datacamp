@@ -52,21 +52,21 @@ In the video, you’ve already seen how much the world’s population has grown 
 - Before you begin, you must import `matplotlib.pyplot` as `plt`. `pyplot` is a subpackage of `matplotlib`, which is why there’s a period.
 - Use `plt.plot()` to create a line graph. `year` should be plotted on the horizontal axis, and `pop` on the vertical axis. Don’t forget to end with the `plt.show()` function to actually display the graph.
 
-# Print the last item from year and pop
+**Print the last item from year and pop**
 ```python
 print(year[-1])
 print(pop[-1])
 ```
-# Import matplotlib.pyplot as plt
+**Import matplotlib.pyplot as plt**
 ```python
 import matplotlib.pyplot as plt
 ```
-# Make a line plot: year on the x-axis, pop on the y-axis
+**Make a line plot: year on the x-axis, pop on the y-axis**
 ```python
 plt.plot(year, pop)
 ```
 
-# Display the plot with plt.show()
+**Display the plot with plt.show()**
 ```python
 plt.show()
 ```
@@ -85,16 +85,16 @@ matplotlib.pyplot has already been imported as plt, so you can get started right
 - Create a line graph with `gdp_cap` on the x-axis and `life_exp` on the y-axis. Does it make sense to plot this data on a line graph?
 - Don't forget to end with the `plt.show()` command to actually display the graph.
 
-# Print the last item of gdp_cap and life_exp
+**Print the last item of gdp_cap and life_exp**
 ```python
 print(gdp_cap[-1])
 print(life_exp[-1])
 ```
-# Make a line plot, gdp_cap on the x-axis, life_exp on the y-axis
+**Make a line plot, gdp_cap on the x-axis, life_exp on the y-axis**
 ```python
 plt.plot(gdp_cap, life_exp)
 ```
-# Display the plot
+**Display the plot**
 ```python
 plt.show()
 ```
